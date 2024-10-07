@@ -39,8 +39,8 @@ This tool addresses a critical gap in the field of interventional radiology by p
 (Provide instructions on how to use the tool, including uploading DICOM files, performing segmentation, making annotations, and saving results)
 
 ## Project Structure
+
 Fluoroscopic-Image-Annotation-Tool/
-│
 ├── server/
 │   ├── app.py                 # Main Flask application
 │   ├── dicom_processing.py    # DICOM handling and processing functions
@@ -77,20 +77,20 @@ Fluoroscopic-Image-Annotation-Tool/
 
 Roadmap
 
-    Phase 1: Backend Development (Current Phase)
+Phase 1: Backend Development (Current Phase)
         DICOM loading and anonymization
         Vessel segmentation using TotalSegmentator
         ROI identification and metadata extraction
 
-    Phase 2: Frontend Development (HELP NEEDED - currently getting errors)
+Phase 2: Frontend Development (HELP NEEDED - currently getting errors)
         Build a user-friendly web interface for radiologists to annotate vessels.
         Implement interaction features like manual correction and speech-to-text for labeling.
 
-    Phase 3: Model Refinement & Transfer Learning
+Phase 3: Model Refinement & Transfer Learning
         Implement and refine the transfer learning process using annotated datasets.
         Test the model's performance and continually improve accuracy.
 
-    Future Considerations:
+Future Considerations:
         Scalability enhancements for large datasets
         PACS integration for hospital deployments
         3D Slicer integration for advanced visualization
@@ -99,15 +99,16 @@ Roadmap
 
 I welcome contributions to improve this project. Please follow these steps if you'd like to contribute:
 
-    Fork the repository.
-    Create a new branch for your feature (git checkout -b feature-branch).
-    Commit your changes (git commit -m 'Add feature').
-    Push to the branch (git push origin feature-branch).
-    Open a pull request.
+Fork the repository.
+Create a new branch for your feature (git checkout -b feature-branch).
+Commit your changes (git commit -m 'Add feature').
+Push to the branch (git push origin feature-branch).
+Open a pull request.
 
 For major changes, please open an issue first to discuss what you'd like to modify.
 
 ## Acknowledgements
+
 My backend relies on the amazing work from the individuals of TotalSegmentator. See their work here https://arxiv.org/abs/2208.05868
 
 ## License
