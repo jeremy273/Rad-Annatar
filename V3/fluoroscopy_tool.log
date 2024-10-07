@@ -1,0 +1,23 @@
+2024-10-06 13:25:50,196:ERROR:Error loading DICOM file /home/jeremy/Desktop/V3/data/sample.dcm: [Errno 2] No such file or directory: '/home/jeremy/Desktop/V3/data/sample.dcm'
+2024-10-06 13:25:50,196:ERROR:Error processing DICOM file /home/jeremy/Desktop/V3/data/sample.dcm: [Errno 2] No such file or directory: '/home/jeremy/Desktop/V3/data/sample.dcm'
+2024-10-06 13:25:50,196:ERROR:Error in main execution: [Errno 2] No such file or directory: '/home/jeremy/Desktop/V3/data/sample.dcm'
+2024-10-06 13:25:54,305:ERROR:Error loading DICOM file /home/jeremy/Desktop/V3/data/sample.dcm: [Errno 2] No such file or directory: '/home/jeremy/Desktop/V3/data/sample.dcm'
+2024-10-06 13:25:54,305:ERROR:Error processing DICOM file /home/jeremy/Desktop/V3/data/sample.dcm: [Errno 2] No such file or directory: '/home/jeremy/Desktop/V3/data/sample.dcm'
+2024-10-06 13:25:54,305:ERROR:Error in main execution: [Errno 2] No such file or directory: '/home/jeremy/Desktop/V3/data/sample.dcm'
+2024-10-06 13:26:20,282:ERROR:Error loading DICOM file /home/jeremy/Desktop/V3/data/sample.dcm: [Errno 2] No such file or directory: '/home/jeremy/Desktop/V3/data/sample.dcm'
+2024-10-06 13:26:20,282:ERROR:Error processing DICOM file /home/jeremy/Desktop/V3/data/sample.dcm: [Errno 2] No such file or directory: '/home/jeremy/Desktop/V3/data/sample.dcm'
+2024-10-06 13:26:20,282:ERROR:Error in main execution: [Errno 2] No such file or directory: '/home/jeremy/Desktop/V3/data/sample.dcm'
+2024-10-06 20:44:21,994:ERROR:Error loading DICOM file /home/jeremy/Downloads/Circle of Willis: [Errno 21] Is a directory: '/home/jeremy/Downloads/Circle of Willis'
+2024-10-06 20:44:21,995:ERROR:Error processing DICOM file /home/jeremy/Downloads/Circle of Willis: [Errno 21] Is a directory: '/home/jeremy/Downloads/Circle of Willis'
+2024-10-06 20:44:21,995:ERROR:Error in main execution: [Errno 21] Is a directory: '/home/jeremy/Downloads/Circle of Willis'
+2024-10-06 20:44:30,627:ERROR:Error in main execution: name 'convolve2d' is not defined
+2024-10-06 20:46:10,788:ERROR:Error loading DICOM file /home/jeremy/Downloads/Circle of Willis: [Errno 21] Is a directory: '/home/jeremy/Downloads/Circle of Willis'
+2024-10-06 20:46:10,788:ERROR:Error processing DICOM file /home/jeremy/Downloads/Circle of Willis: [Errno 21] Is a directory: '/home/jeremy/Downloads/Circle of Willis'
+2024-10-06 20:46:10,788:ERROR:Error in main execution: [Errno 21] Is a directory: '/home/jeremy/Downloads/Circle of Willis'
+2024-10-06 20:46:21,367:ERROR:Error in main execution: name 'convolve2d' is not defined
+2024-10-06 20:46:37,471:ERROR:Error in main execution: name 'convolve2d' is not defined
+2024-10-06 20:46:58,182:ERROR:Error loading DICOM file /home/jeremy/Downloads/Circle of Willis: [Errno 21] Is a directory: '/home/jeremy/Downloads/Circle of Willis'
+2024-10-06 20:46:58,182:ERROR:Error processing DICOM file /home/jeremy/Downloads/Circle of Willis: [Errno 21] Is a directory: '/home/jeremy/Downloads/Circle of Willis'
+2024-10-06 20:46:58,182:ERROR:Error in main execution: [Errno 21] Is a directory: '/home/jeremy/Downloads/Circle of Willis'
+2024-10-06 20:47:24,910:ERROR:Error in main execution: name 'convolve2d' is not defined
+2024-10-06 21:01:24,641:ERROR:Error in main execution: name 'convolve2d' is not defined
