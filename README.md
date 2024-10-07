@@ -1,6 +1,6 @@
 # Rad-Annatar
-Fluoroscopy Image Annotation Tool
-# Fluoroscopic Image Annotation Tool
+
+# Fluoroscopy Annotating Tool
 
 ## Project Overview
 This project aims to build a Python-based backend for an AI-powered annotation tool designed to help interventional radiologists label segmented blood vessels from fluoroscopic images. The goal is to create structured  datasets that can be used to train machine learning models for clinical applications. The long-term aim is to publish this tool and its datasets as open-source resources for the radiology community via RSNA's Data Resources.
