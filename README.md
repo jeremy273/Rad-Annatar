@@ -55,7 +55,7 @@ This tool addresses a critical gap in the field of interventional radiology by p
 (Include guidelines for how others can contribute to the project)
 
 ## References
-I am relying my image segmentation from the amazing work from the individuals of TotalSegmentator. See their work here https://arxiv.org/abs/2208.05868
+My backend relies on the amazing work from the individuals of TotalSegmentator. See their work here https://arxiv.org/abs/2208.05868
 
 ## License
 
