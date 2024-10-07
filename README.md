@@ -40,38 +40,7 @@ This tool addresses a critical gap in the field of interventional radiology by p
 
 ## Project Structure
 
-Fluoroscopic-Image-Annotation-Tool/
-├── server/
-│   ├── app.py                 # Main Flask application
-│   ├── dicom_processing.py    # DICOM handling and processing functions
-│   └── segmentation.py        # Vessel segmentation algorithms
-│
-├── static/
-│   ├── css/
-│   │   └── styles.css         # CSS for the frontend
-│   └── js/
-│       └── main.js            # JavaScript for the frontend
-│
-├── templates/
-│   └── index.html             # Main HTML template
-│
-├── data/
-│   ├── raw/                   # Directory for storing uploaded DICOM files
-│   └── processed/             # Directory for storing processed images
-│
-├── models/
-│   └── segmentation_model.pth # Trained segmentation model (if applicable)
-│
-├── utils/
-│   ├── data_utils.py          # Utility functions for data handling
-│   └── visualization.py       # Functions for image visualization
-│
-├── tests/                     # Directory for test files
-│
-├── requirements.txt           # Python dependencies
-├── .gitignore
-├── README.md
-└── run.py                     # Script to run the application
+
 
 ## Roadmap
 
