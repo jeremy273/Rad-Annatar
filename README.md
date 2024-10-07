@@ -3,49 +3,47 @@
 # Fluoroscopy Annotating Tool
 
 ## Project Overview
-This project aims to build a Python-based backend for an AI-powered annotation tool designed to help interventional radiologists label segmented blood vessels from fluoroscopic images. The goal is to create structured  datasets that can be used to train machine learning models for clinical applications. The long-term aim is to publish this tool and its datasets as open-source resources for the radiology community via RSNA's Data Resources.
+This project aims to build a Python-based backend for an AI-powered annotation tool designed to help with labeling segmented blood vessels from fluoroscopic images. This purpose of this tool is to help facilitate the creation a structured dataset that can be used to as training sets for more sophisticated AI tools for clinical applications. The goal is to create a tool and the data which are to be made available as open-source resources for the radiology community via RSNA's Data Resources.
 
 ### Key Features
 
-- DICOM Image Handling & Anonymization: Utilizes pydicom to load, process, and anonymize DICOM images in compliance with HIPAA standards.
+- DICOM Image Handling & Anonymization: Utilizes pydicom to load, process, and anonymize DICOM images.
 
 - Vessel Segmentation: Leverages a modified version of the TotalSegmentator, based on the nnU-Net architecture, to adapt from 3D to 2D fluoroscopic segmentation using contrast density and branching patterns.
 
-- Metadata Extraction: Extracts crucial metadata (e.g., C-arm position, beam angle, Table X, Y, Z coordinates) for tracking the image intensifier's position in 3D space relative to the patient.
+- Metadata Extraction: Extract other dicom data (e.g., C-arm position, beam angle, Table X, Y, Z coordinates) to compare image pattern to position in space
 
-- Region of Interest (ROI) Identification: Isolates individual anatomical structures (vessels) for annotation by using pixel shading and vessel morphology features.
+- Region of Interest (ROI) Identification: Isolates individual anatomic structures for annotation by analyzing the pixel shading in the image and the morphologic features of vessels.
 
 - Transfer Learning Integration: Continuously improves the model through a transfer learning approach that involves manual annotation, retraining, and iterative refinement.
 
-- Modular Design: Python backend designed for easy integration with future front-end development in JavaScript/HTML and visualization tools like 3D Slicer.
+- Design: Built on python for easy integration with existing tools.
 
 ## Project Significance
 
-This tool addresses a critical gap in the field of interventional radiology by providing:
+This tool addresses a critical gap in the field by providing:
 
-1. A data annotating tool to provide the first open-source dataset of annotated fluoroscopic images with the intention of contributing to Data Resources section https://pubs.rsna.org/journal/ai
-2. A user-friendly interface for radiologists to create and refine annotations.
-3. A platform for continuous improvement of vessel segmentation algorithms through expert input.
+1. An effective data annotating tool
+4. A user-friendly interface to create and refine annotations.
+5. A platform for improvement of the tool with more utilization.
 
 ## Technical Stack
 
 - Backend: Python with Flask
 - Frontend: HTML, CSS, JavaScript
-- Image Processing: PyDicom, NumPy, SciPy
-- Machine Learning: Adapted TotalSegmentator (nnU-Net architecture)
-- Database: SQLite (current), with plans for more robust solutions
+- Image Processing: PyDicom, NumPy, SciPy, TotalSegmentator (nnU-Net architecture)
 
 ## Installation and Setup
 
-(Include steps for setting up the development environment, installing dependencies, and running the application locally)
+Pending
 
 ## Usage
 
-(Provide instructions on how to use the tool, including uploading DICOM files, performing segmentation, making annotations, and saving results)
+Pending
 
 ## Project Structure
 
-
+Pending
 
 ## Roadmap
 
@@ -54,20 +52,22 @@ Roadmap
 - Phase 1: Backend Development (Current Phase)
         DICOM loading and anonymization
         Vessel segmentation using TotalSegmentator
-        ROI identification and metadata extraction
+        ROI identification and metadata extraction (csv)
 
-- Phase 2: Frontend Development (HELP NEEDED - currently getting errors)
-        Build a user-friendly web interface for radiologists to annotate vessels.
+- Phase 2: Frontend Development (HELP NEEDED)
+        Build a user-friendly web interface for file upload and user annotation.
         Implement interaction features like manual correction and speech-to-text for labeling.
 
 - Phase 3: Model Refinement & Transfer Learning
         Implement and refine the transfer learning process using annotated datasets.
-        Test the model's performance and continually improve accuracy.
+          - Better prediction of labeled ROI overtime
+        Test the model's performance and continually improve accuracy
+        Software and Hardware optimization
 
 - Future Considerations:
-        Scalability enhancements for large datasets
-        PACS integration for hospital deployments
-        3D Slicer integration for advanced visualization
+        Scalability for large datasets (infrastructure)
+        PACS integration
+        3D Slicer integration for advanced visualization/compatibility
 
 ## Contributing
 
