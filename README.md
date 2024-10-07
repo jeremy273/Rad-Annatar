@@ -7,12 +7,17 @@ This project aims to build a Python-based backend for an AI-powered annotation t
 
 ### Key Features
 
-DICOM Image Handling & Anonymization: Utilizes pydicom to load, process, and anonymize DICOM images in compliance with HIPAA standards.
-Vessel Segmentation: Leverages a modified version of the TotalSegmentator, based on the nnU-Net architecture, to adapt from 3D to 2D fluoroscopic segmentation using contrast density and branching patterns.
-Metadata Extraction: Extracts crucial metadata (e.g., C-arm position, beam angle, Table X, Y, Z coordinates) for tracking the image intensifier's position in 3D space relative to the patient.
-Region of Interest (ROI) Identification: Isolates individual anatomical structures (vessels) for annotation by using pixel shading and vessel morphology features.
-Transfer Learning Integration: Continuously improves the model through a transfer learning approach that involves manual annotation, retraining, and iterative refinement.
-Modular Design: Python backend designed for easy integration with future front-end development in JavaScript/HTML and visualization tools like 3D Slicer.
+- DICOM Image Handling & Anonymization: Utilizes pydicom to load, process, and anonymize DICOM images in compliance with HIPAA standards.
+
+- Vessel Segmentation: Leverages a modified version of the TotalSegmentator, based on the nnU-Net architecture, to adapt from 3D to 2D fluoroscopic segmentation using contrast density and branching patterns.
+
+- Metadata Extraction: Extracts crucial metadata (e.g., C-arm position, beam angle, Table X, Y, Z coordinates) for tracking the image intensifier's position in 3D space relative to the patient.
+
+- Region of Interest (ROI) Identification: Isolates individual anatomical structures (vessels) for annotation by using pixel shading and vessel morphology features.
+
+- Transfer Learning Integration: Continuously improves the model through a transfer learning approach that involves manual annotation, retraining, and iterative refinement.
+
+- Modular Design: Python backend designed for easy integration with future front-end development in JavaScript/HTML and visualization tools like 3D Slicer.
 
 ## Project Significance
 
@@ -46,20 +51,20 @@ This tool addresses a critical gap in the field of interventional radiology by p
 
 Roadmap
 
-Phase 1: Backend Development (Current Phase)
+- Phase 1: Backend Development (Current Phase)
         DICOM loading and anonymization
         Vessel segmentation using TotalSegmentator
         ROI identification and metadata extraction
 
-Phase 2: Frontend Development (HELP NEEDED - currently getting errors)
+- Phase 2: Frontend Development (HELP NEEDED - currently getting errors)
         Build a user-friendly web interface for radiologists to annotate vessels.
         Implement interaction features like manual correction and speech-to-text for labeling.
 
-Phase 3: Model Refinement & Transfer Learning
+- Phase 3: Model Refinement & Transfer Learning
         Implement and refine the transfer learning process using annotated datasets.
         Test the model's performance and continually improve accuracy.
 
-Future Considerations:
+- Future Considerations:
         Scalability enhancements for large datasets
         PACS integration for hospital deployments
         3D Slicer integration for advanced visualization
@@ -68,13 +73,17 @@ Future Considerations:
 
 I welcome contributions to improve this project. Please follow these steps if you'd like to contribute:
 
-Fork the repository.
-Create a new branch for your feature (git checkout -b feature-branch).
-Commit your changes (git commit -m 'Add feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
+- Fork the repository.
+  
+- Create a new branch for your feature (git checkout -b feature-branch).
+  
+- Commit your changes (git commit -m 'Add feature').
+  
+- Push to the branch (git push origin feature-branch).
+  
+- Open a pull request.
 
-For major changes, please open an issue first to discuss what you'd like to modify.
+ -For major changes, please open an issue first to discuss what you'd like to modify.
 
 ## Acknowledgements
 
